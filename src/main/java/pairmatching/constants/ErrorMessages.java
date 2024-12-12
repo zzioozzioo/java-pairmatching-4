@@ -12,4 +12,6 @@ public class ErrorMessages {
     public static final String INVALID_FUNCTION_TYPE_ERROR = PREFIX_ERROR_MESSAGE + "유효하지 않은 기능입니다." + NEW_LINE;
 
     public static final String INVALID_INPUT_ERROR = PREFIX_ERROR_MESSAGE + "유효하지 않은 입력입니다." + NEW_LINE;
+
+    public static final String CANNOT_MATCH_PAIR = PREFIX_ERROR_MESSAGE + "페어를 매칭할 수 없습니다.";
 }

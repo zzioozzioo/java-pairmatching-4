@@ -27,4 +27,10 @@ public class InputView {
         writer.write(NEW_LINE);
         return input;
     }
+
+    public String chooseRematchOrNot() {
+        String input = reader.readLine();
+        writer.write(NEW_LINE);
+        return input;
+    }
 }

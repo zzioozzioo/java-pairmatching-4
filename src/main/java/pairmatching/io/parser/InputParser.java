@@ -76,4 +76,12 @@ public class InputParser {
             throw new IllegalArgumentException(INVALID_INPUT_ERROR);
         }
     }
+
+    public void parseRematchInput(String input) {
+        validateEmptyInput(input);
+
+        if (!input.equals("네") && !input.equals("아니오")) {
+            throw new IllegalArgumentException(INVALID_INPUT_ERROR);
+        }
+    }
 }

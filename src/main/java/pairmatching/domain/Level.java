@@ -38,6 +38,15 @@ public enum Level {
         return false;
     }
 
+    public static Level matchLevelWithString(String input) {
+        for (Level level : Level.values()) {
+            if (level.getGrade().equals(input)) {
+                return level;
+            }
+        }
+        return null;
+    }
+
     public String getGrade() {
         return grade;
     }
