@@ -14,7 +14,7 @@ public class InputView {
         this.writer = writer;
     }
 
-    public String readSelectedFunction() {
+    public String readFunctionType() {
         writer.write("기능을 선택하세요." + NEW_LINE);
         String input = reader.readLine();
         writer.write(NEW_LINE);
