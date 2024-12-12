@@ -11,9 +11,9 @@
 
 ### 📌 파일 입출력 기능
 
-- [ ] 페어 매칭에 필요한 크루들의 이름을 파일 입출력을 통해 불러옴
-- [ ] `src/main/resources/backend-crew.md`과 `src/main/resources/frontend-crew.md` 파일을 이용
-- [ ] 두 파일의 내용은 수정 가능하고, 크루들의 이름은 중복이 불가
+- [x] 페어 매칭에 필요한 크루들의 이름을 파일 입출력을 통해 불러옴
+- [x] `src/main/resources/backend-crew.md`과 `src/main/resources/frontend-crew.md` 파일을 이용
+- [x] 두 파일의 내용은 수정 가능하고, 크루들의 이름은 중복이 불가
 
 ### 📌 기능 선택 기능
 
